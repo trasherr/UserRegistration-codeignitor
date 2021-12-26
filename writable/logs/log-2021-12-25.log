@@ -1,0 +1,131 @@
+CRITICAL - 2021-12-25 21:29:41 --> Class "App\Controllers\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 21:44:43 --> Class "App\Libraries\Verification\BaseController" not found
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(519): include_once()
+#1 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Signin/student')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Signin/student')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-25 21:45:06 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/st_login', Array, true)
+#2 E:\xampp\htdocs\cod\app\Controllers\Signin.php(30): view('login/st_login')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-25 21:45:55 --> Class "App\Controllers\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 21:52:46 --> syntax error, unexpected token "class", expecting "{"
+#0 E:\xampp\htdocs\cod\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\cod\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\V...')
+#2 E:\xampp\htdocs\cod\app\Controllers\Signin.php(40): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\V...')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-25 21:53:38 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 21:56:53 --> syntax error, unexpected token "return"
+#0 E:\xampp\htdocs\cod\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\cod\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\V...')
+#2 E:\xampp\htdocs\cod\app\Controllers\Signin.php(40): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\V...')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-25 21:57:19 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 21:58:27 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:06:26 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:08:51 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:10:39 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:14:25 --> Call to undefined function App\Controllers\Verification()
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:14:52 --> Call to undefined function App\Controllers\App\Libraries\VerificationVerification()
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:15:34 --> Class "App\Controllers\App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:15:46 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:16:07 --> Class "App\Controllers\Verificatin\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:16:17 --> Class "App\Libraries\Verification\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:16:27 --> Class "App\Libraries\Verification" not found
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->student()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 22:34:08 --> Undefined constant "App\Controllers\session"
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

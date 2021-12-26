@@ -1,0 +1,46 @@
+li {
+  display: inline;
+  float: left;
+}
+
+.nav a {
+  display: block;
+  /*padding: 8px;*/
+}
+
+.nav a:hover{
+    background-color: #3498db;
+}
+
+ul {
+  /*background-color: #dddddd;*/
+  list-style-type: none;
+  margin: 0;
+  font-size: large;
+  /*padding: 15px;*/
+  overflow: hidden;
+  background-color: #191919;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #3498db;
+}
+
+li {
+  border-right: 5px solid #191919;
+}
+
+li:last-child {
+  border-right: none;
+}

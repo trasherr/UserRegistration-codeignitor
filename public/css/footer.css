@@ -1,0 +1,26 @@
+footer {
+      padding: 0px;
+      background-color: #212529;
+      margin: 0px;
+    }
+
+    .fa {
+      padding: 1%;
+      font-size: 1rem;
+      width: auto;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 10px;
+      margin-bottom:0px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.5;
+      text-decoration: none;
+    }
+
+    p {
+      text-align: center;
+      color: white;
+    }

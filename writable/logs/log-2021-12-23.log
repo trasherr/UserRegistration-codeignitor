@@ -1,0 +1,149 @@
+CRITICAL - 2021-12-23 21:07:14 --> syntax error, unexpected token "=>"
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('signin/st_regis...')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('signin/st_regis...')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 21:10:48 --> Unmatched '}'
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('signin/st_regis...')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('signin/st_regis...')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 21:11:18 --> Unmatched '}'
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('signin/st_regis...')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('signin/st_regis...')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 21:18:04 --> Call to undefined function display_error()
+#0 E:\xampp\htdocs\cod\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/st_regist...', Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(48): view('login/st_regist...', Array)
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 21:19:18 --> Call to undefined function display_error()
+#0 E:\xampp\htdocs\cod\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/st_regist...', Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(48): view('login/st_regist...', Array)
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 21:19:25 --> Call to undefined function display_error()
+#0 E:\xampp\htdocs\cod\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/st_regist...', Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(48): view('login/st_regist...', Array)
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 21:25:50 --> syntax error, unexpected token "=>", expecting "]"
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('signin/st_regis...')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('signin/st_regis...')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 21:26:48 --> Call to undefined function display_error()
+#0 E:\xampp\htdocs\cod\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/st_regist...', Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(48): view('login/st_regist...')
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 21:31:10 --> syntax error, unexpected token ";"
+#0 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/st_regist...', Array, true)
+#2 E:\xampp\htdocs\cod\app\Controllers\Signin.php(48): view('login/st_regist...')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:31:52 --> syntax error, unexpected token ";"
+#0 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/st_regist...', Array, true)
+#2 E:\xampp\htdocs\cod\app\Controllers\Signin.php(48): view('login/st_regist...')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:39:26 --> syntax error, unexpected token "=", expecting "]"
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('signin/st_regis...')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('signin/st_regis...')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 21:40:04 --> syntax error, unexpected variable "$userModel"
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('signin/st_regis...')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('signin/st_regis...')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 21:48:01 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 E:\xampp\htdocs\cod\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\cod\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 E:\xampp\htdocs\cod\app\Controllers\Signin.php(68): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:48:17 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 E:\xampp\htdocs\cod\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 E:\xampp\htdocs\cod\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 E:\xampp\htdocs\cod\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(69): CodeIgniter\Model->insert(Array)
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 21:51:15 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 E:\xampp\htdocs\cod\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 E:\xampp\htdocs\cod\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 E:\xampp\htdocs\cod\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(70): CodeIgniter\Model->insert(Array)
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 21:53:35 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 E:\xampp\htdocs\cod\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 E:\xampp\htdocs\cod\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 E:\xampp\htdocs\cod\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(69): CodeIgniter\Model->insert(Array)
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 21:54:49 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 E:\xampp\htdocs\cod\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 E:\xampp\htdocs\cod\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 E:\xampp\htdocs\cod\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(69): CodeIgniter\Model->insert(Array)
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->st_register()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

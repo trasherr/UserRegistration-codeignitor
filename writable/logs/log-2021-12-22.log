@@ -1,0 +1,101 @@
+CRITICAL - 2021-12-22 10:55:52 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 E:\xampp\htdocs\cod\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 E:\xampp\htdocs\cod\public\index.php(28): require('E:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-22 10:55:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 E:\xampp\htdocs\cod\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 E:\xampp\htdocs\cod\public\index.php(28): require('E:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-22 10:56:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 E:\xampp\htdocs\cod\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 E:\xampp\htdocs\cod\public\index.php(28): require('E:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-22 10:58:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 E:\xampp\htdocs\cod\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 E:\xampp\htdocs\cod\public\index.php(28): require('E:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-22 10:59:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 E:\xampp\htdocs\cod\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 E:\xampp\htdocs\cod\public\index.php(28): require('E:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-22 22:17:49 --> Invalid file: t_login.php
+#0 E:\xampp\htdocs\cod\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('t_login.php')
+#1 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('t_login', Array, true)
+#2 E:\xampp\htdocs\cod\app\Controllers\Home.php(15): view('t_login')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Home->signIn()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 22:21:58 --> Call to undefined function App\Controllers\error()
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Home->signIn('sda')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 22:24:36 --> syntax error, unexpected token "}", expecting ";"
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('home/signin/sda')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('home/signin/sda')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 22:40:00 --> Too few arguments to function App\Controllers\Signin::index(), 0 passed in E:\xampp\htdocs\cod\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->index()
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 22:42:06 --> syntax error, unexpected token "}"
+#0 E:\xampp\htdocs\cod\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('signin')
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('signin')
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 22:42:14 --> Undefined variable $user
+#0 E:\xampp\htdocs\cod\app\Controllers\Signin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 9)
+#1 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->index()
+#2 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 22:59:00 --> Invalid file: login/t_signup.php
+#0 E:\xampp\htdocs\cod\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/t_signup....')
+#1 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/t_signup', Array, true)
+#2 E:\xampp\htdocs\cod\app\Controllers\Signin.php(18): view('login/t_signup')
+#3 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->teacher()
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 23:08:30 --> Call to undefined function link_tag()
+#0 E:\xampp\htdocs\cod\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/header', Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(17): view('login/header')
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->teacher()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-22 23:09:32 --> Call to undefined function link_tag()
+#0 E:\xampp\htdocs\cod\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\cod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\cod\system\Common.php(1097): CodeIgniter\View\View->render('login/header', Array, true)
+#3 E:\xampp\htdocs\cod\app\Controllers\Signin.php(17): view('login/header')
+#4 E:\xampp\htdocs\cod\system\CodeIgniter.php(824): App\Controllers\Signin->teacher()
+#5 E:\xampp\htdocs\cod\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signin))
+#6 E:\xampp\htdocs\cod\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\cod\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
